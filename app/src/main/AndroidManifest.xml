@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.test_project">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:exported="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HankkiGudok">
+        <activity android:name=".loading"></activity>
+        <activity android:name=".barcode" />
+        <activity android:name=".signin" />
+        <activity android:name=".pay" />
+        <activity android:name=".view_restaurant" />
+        <activity android:name=".Mypage" />
+        <activity android:name=".Homepage" />
+        <activity
+            android:name=".Mainpage"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

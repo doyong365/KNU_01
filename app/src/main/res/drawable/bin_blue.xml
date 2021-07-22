@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--bin.blue.xml-->
+<!--버튼 따로 만들어준 부분. 이부분은 레이아웃이 아니라 드로블 폴더에 여러 아이콘과 같이 들어가있으며 activity_login.xml파일에 보면-->
+<!--@drawable/bin_blue 이런 부분 있는데 이게 그 파일임 ㅇㅇ 여기서 도형이나 눌러졌을때 상태 이런것들 설정해두고 버튼 넘겨주면 레이아웃에서 바로 사용 가능-->
+<!--이 파일과 같이 bin_darkblue.xml파일도 있음. 다른 부분은 컬러만 다르니까 주석은 안올리고 코드만 올릴게 이거 바로 밑에 ㅇㅇ-->
+
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFF00"/>
+            <corners android:radius="100dp"/>
+        </shape>
+    </item>
+    <item android:shape="rectangle">
+        <shape android:shape="rectangle">
+            <solid android:color="#00b2ed"/>
+            <corners android:radius="100dp"/>
+        </shape>
+    </item>
+    <item android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <solid android:color="#808080"/>
+            <corners android:radius="100dp"/>
+        </shape>
+    </item>
+
+
+
+</selector>
