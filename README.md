@@ -30,7 +30,7 @@ User 및 Restaurant의 데이터는 Firebase의 Realtime Database를 통해 관�
 1. Github에서 ZIP파일을 다운받아서, 압축을 풀고 컴퓨터의 다이렉션에 한글이 없게 하여 Android Studio에서 파일을 엽니다. 이 후 프로젝트를 빌드하면 Emulator로 앱을 확인할 수 있습니다.
 2. 해당 Github주소를 복사한 후, Android Studio에서 클론을 떠서 빌드를 하는 방법이 있습니다.
 
-apk 주소를 아래에 첨부하였습니다.
-apk : [Hankkigudok.zip](https://github.com/doyong365/KNU_01/files/6866361/Hankkigudok.zip)
+APK zip파일을 아래에 첨부하였습니다.\
+APK zip : [Hankkigudok.zip](https://github.com/doyong365/KNU_01/files/6866361/Hankkigudok.zip)
 
 [시연 영상](https://youtu.be/Z8kP7_kOJmw)
